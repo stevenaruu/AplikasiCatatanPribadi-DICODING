@@ -1,3 +1,17 @@
+## `Belajar Dasar Pemrograman Web - IDCamp 2023 REACT`
+Final Project [Belajar Dasar Pemrograman Web](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
+<br>
+<div align="center">
+  <img src="" alt="Belajar Membuat Aplikasi Web dengan React">
+</div>
+<br>
+
+## `Kaela Kovalskia`
+Kaela Kovalskia is the youngest and most successful apprentice of a reknowned blacksmith. However, even after achieving success, she felt unfulfilled and left to visit the city in search of a rare material. Her search led her to to the hololive headquarters, where she was hired as a member.
+<div align="center">
+  <img src="" alt="Aplikasi Catatan Pribadi prototype">
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

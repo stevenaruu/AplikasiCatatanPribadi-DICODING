@@ -1,13 +1,13 @@
-## `Belajar Dasar Pemrograman Web - IDCamp 2023 REACT`
-Final Project [Belajar Dasar Pemrograman Web](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
+## `Belajar Membuat Aplikasi Web dengan React - IDCamp 2023 REACT`
+Final Project [Belajar Membuat Aplikasi Web dengan React](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
 <br>
 <div align="center">
   <img src="" alt="Belajar Membuat Aplikasi Web dengan React">
 </div>
 <br>
 
-## `Kaela Kovalskia`
-Kaela Kovalskia is the youngest and most successful apprentice of a reknowned blacksmith. However, even after achieving success, she felt unfulfilled and left to visit the city in search of a rare material. Her search led her to to the hololive headquarters, where she was hired as a member.
+## `Aplikasi Catatan Pribadi`
+Introducing Aplikasi Catatan Pribadi, the ultimate note-taking companion designed to streamline your digital note-taking experience. Say goodbye to the chaos of scattered notes, forgotten memos, and disorganized thoughts. With Aplikasi Catatan Pribadi, you can effortlessly capture, organize, and access your notes anytime, anywhere.
 <div align="center">
   <img src="" alt="Aplikasi Catatan Pribadi prototype">
 </div>

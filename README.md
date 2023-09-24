@@ -2,7 +2,7 @@
 Final Project [Belajar Membuat Aplikasi Web dengan React](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
 <br>
 <div align="center">
-  <img src="" alt="Belajar Membuat Aplikasi Web dengan React">
+  <img src="" alt="Belajar Membuat Aplikasi Web dengan React certificate">
 </div>
 <br>
 

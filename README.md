@@ -1,3 +1,17 @@
+## `Belajar Membuat Aplikasi Web dengan React - IDCamp 2023 REACT`
+Final Project [Belajar Membuat Aplikasi Web dengan React](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
+<br>
+<div align="center">
+  <img src="" alt="Belajar Membuat Aplikasi Web dengan React certificate">
+</div>
+<br>
+
+## `Aplikasi Catatan Pribadi`
+Introducing Aplikasi Catatan Pribadi, the ultimate note-taking companion designed to streamline your digital note-taking experience. Say goodbye to the chaos of scattered notes, forgotten memos, and disorganized thoughts. With Aplikasi Catatan Pribadi, you can effortlessly capture, organize, and access your notes anytime, anywhere.
+<div align="center">
+  <img src="" alt="Aplikasi Catatan Pribadi prototype">
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

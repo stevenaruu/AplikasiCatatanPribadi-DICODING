@@ -91,38 +91,43 @@ const HomePage = () => {
                         <button onClick={handleCreateNote}>Buat</button>
                     </section>
                     <CardSection title="Catatan Aktif">
-                        {notes
-                            .filter((note) => note.archived === false)
-                            .filter((note) => note.title.toLowerCase().includes(searchValue.toLowerCase()))
-                            .map((note) => (
-                                <Card
-                                    key={note.id}
-                                    id={note.id}
-                                    title={note.title}
-                                    body={note.body}
-                                    archived={note.archived}
-                                    createdAt={note.createdAt}
-                                    isArchieve={handleArchiveNote}
-                                    onDelete={handleDeleteNote}
-                                />
-                            ))}
+                        {notes.filter((note) => note.archived === false).length > 0 ?
+                            (notes
+                                .filter((note) => note.archived === false)
+                                .filter((note) => note.title.toLowerCase().includes(searchValue.toLowerCase()))
+                                .map((note) => (
+                                    <Card
+                                        key={note.id}
+                                        id={note.id}
+                                        title={note.title}
+                                        body={note.body}
+                                        archived={note.archived}
+                                        createdAt={note.createdAt}
+                                        isArchieve={handleArchiveNote}
+                                        onDelete={handleDeleteNote}
+                                    />
+                                ))
+                            ) : ('Tidak ada catatan')
+                        }
                     </CardSection>
                     <CardSection title="Arsip Catatan">
-                        {notes
-                            .filter((note) => note.archived === true)
-                            .filter((note) => note.title.toLowerCase().includes(searchValue.toLowerCase()))
-                            .map((note) => (
-                                <Card
-                                    key={note.id}
-                                    id={note.id}
-                                    title={note.title}
-                                    body={note.body}
-                                    archived={note.archived}
-                                    createdAt={note.createdAt}
-                                    isArchieve={handleArchiveNote}
-                                    onDelete={handleDeleteNote}
-                                />
-                            ))}
+                        {notes.filter((note) => note.archived === true).length > 0 ?
+                            (notes
+                                .filter((note) => note.archived === true)
+                                .filter((note) => note.title.toLowerCase().includes(searchValue.toLowerCase()))
+                                .map((note) => (
+                                    <Card
+                                        key={note.id}
+                                        id={note.id}
+                                        title={note.title}
+                                        body={note.body}
+                                        archived={note.archived}
+                                        createdAt={note.createdAt}
+                                        isArchieve={handleArchiveNote}
+                                        onDelete={handleDeleteNote}
+                                    />
+                                ))) : ('Tidak ada catatan')
+                        }
                     </CardSection>
                 </article>
             </main>

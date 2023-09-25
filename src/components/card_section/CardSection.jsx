@@ -1,5 +1,3 @@
-import Card from "../card/Card"
-
 const CardSection = (props) => {
     const { children, title } = props
     return (

@@ -3,7 +3,6 @@ import { TemporaryNote } from "../datas/TemporaryNote";
 import SearchBar from "../components/search_bar/SearchBar";
 import CardSection from "../components/card_section/CardSection";
 import Card from "../components/card/Card";
-import Modal from "../components/modal/Modal";
 
 const HomePage = () => {
     const [notes, setNotes] = useState(TemporaryNote);
@@ -17,7 +16,7 @@ const HomePage = () => {
 
     const handleTitleValue = (e) => {
         const value = e.target.value;
-        setTitleValue(value);
+        setTitleValue(value.slice(0, 50));
     }
 
     const handleBodyValue = (e) => {
@@ -77,9 +76,9 @@ const HomePage = () => {
                         <div className="title-note">
                             <input
                                 type="text"
+                                value={titleValue}
                                 placeholder="Masukkan judul ..."
                                 onChange={handleTitleValue}
-                                maxLength={50}
                             />
                             <p>{50 - titleValue.length}</p>
                         </div>

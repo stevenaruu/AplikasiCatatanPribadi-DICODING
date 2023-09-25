@@ -3,6 +3,7 @@ import { TemporaryNote } from "../datas/TemporaryNote";
 import SearchBar from "../components/search_bar/SearchBar";
 import CardSection from "../components/card_section/CardSection";
 import Card from "../components/card/Card";
+import Modal from "../components/modal/Modal";
 
 const HomePage = () => {
     const [notes, setNotes] = useState(TemporaryNote);

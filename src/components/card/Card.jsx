@@ -1,6 +1,10 @@
+import { useState } from "react";
+import Modal from "../modal/Modal";
+
 const Card = (props) => {
   const { id, title, body, archived, createdAt, isArchieve, onDelete } = props;
   const date = new Date(createdAt);
+  const [showModal, setShowModal] = useState(false);
 
   const monthNames = [
     "Januari", "Februari", "Maret",
@@ -31,15 +35,27 @@ const Card = (props) => {
   }
 
   return (
-    <div className="card">
-      <p className="">{title.length > 30 ? `${title.substring(0, 30)}...` : `${title}`}</p>
-      <p className="">{formattedDate}</p>
-      <p className="">{body}</p>
-      <div className="card-button">
-        <button onClick={handleArchieve}>{archived ? "Pindahkan" : "Arsipkan"}</button>
-        <button onClick={handleDelete}>Delete</button>
+    <>
+      <div className="card" onClick={() => { setShowModal(true) }}>
+        <div>
+          <p className="card-title">{title.length > 30 ? `${title.substring(0, 30)}...` : `${title}`}</p>
+          <p className="card-date">{formattedDate}</p>
+          <p className="">{body.length > 240 ? `${body.substring(0, 240)}...` : `${body}`}</p>
+        </div>
+        <div className="card-button">
+          <button onClick={handleArchieve}>{archived ? "Pindahkan" : "Arsipkan"}</button>
+          <button onClick={handleDelete}>Delete</button>
+        </div>
       </div>
-    </div>
+      {showModal &&
+        <Modal
+          onClick={() => setShowModal(false)}
+          title={title}
+          body={body}
+          date={formattedDate}
+        />
+      }
+    </>
   )
 }
 

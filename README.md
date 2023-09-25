@@ -9,7 +9,7 @@ Final Project [Belajar Membuat Aplikasi Web dengan React](https://www.dicoding.c
 ## `Aplikasi Catatan Pribadi`
 Introducing Aplikasi Catatan Pribadi, the ultimate note-taking companion designed to streamline your digital note-taking experience. Say goodbye to the chaos of scattered notes, forgotten memos, and disorganized thoughts. With Aplikasi Catatan Pribadi, you can effortlessly capture, organize, and access your notes anytime, anywhere.
 <div align="center">
-  <img src="" alt="Aplikasi Catatan Pribadi prototype">
+  <img src="https://github.com/stevenaruu/AplikasiCatatanPribadi-DICODING/assets/105982460/ab33f7e2-d7fc-4f63-ae18-c82c21695a66" alt="Aplikasi Catatan Pribadi prototype">
 </div>
 
 # Getting Started with Create React App

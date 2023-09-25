@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { TemporaryNote } from "../datas/TemporaryNote";
 import SearchBar from "../components/search_bar/SearchBar";
 import CardSection from "../components/card_section/CardSection";
 import Card from "../components/card/Card";
+import { getInitialData } from "../utils";
 
 const HomePage = () => {
-    const [notes, setNotes] = useState(TemporaryNote);
+    const [notes, setNotes] = useState(getInitialData);
     const [searchValue, setSearchValue] = useState('');
     const [titleValue, setTitleValue] = useState('');
     const [bodyValue, setBodyValue] = useState('');

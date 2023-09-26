@@ -1,8 +1,9 @@
 ## `Belajar Membuat Aplikasi Web dengan React - IDCamp 2023 REACT`
 Final Project [Belajar Membuat Aplikasi Web dengan React](https://www.dicoding.com/) from [Dicoding Indonesia](https://www.dicoding.com/).
 <br>
+
 <div align="center">
-  <img src="" alt="Belajar Membuat Aplikasi Web dengan React certificate">
+  <img src="https://github.com/stevenaruu/AplikasiCatatanPribadi-DICODING/assets/105982460/903f8647-3099-49e4-8d59-f2e7a875b74b" alt="Belajar Membuat Aplikasi Web dengan React certificate">
 </div>
 <br>
 
